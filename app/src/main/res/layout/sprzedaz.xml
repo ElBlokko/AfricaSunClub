@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Button
+        android:text="opalanie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/opalanie"
+        android:visibility="visible"
+        android:layout_marginTop="27dp"
+        android:elevation="0dp" />
+
+    <Button
+        android:text="sprzedaż karnetu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:id="@+id/karnet"
+        android:visibility="visible" />
+
+    <Button
+        android:text="kosmetyk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:id="@+id/kosmetyk"
+        android:visibility="visible" />
+
+    <Button
+        android:text="prasowanie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:id="@+id/prasowanie"
+        android:visibility="visible" />
+
+    <Button
+        android:text="powrót"
+        android:layout_width="match_parent"
+        android:layout_marginTop="27dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/powrot"
+        android:visibility="visible" />
+</LinearLayout>

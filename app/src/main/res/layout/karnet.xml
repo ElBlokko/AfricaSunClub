@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="27dp"
+        android:text="Nazwisko: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nazwisko"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/wpiszNazwisko"
+        android:hint="Wpisz nazwisko" />
+
+    <TextView
+        android:layout_marginTop="27dp"
+        android:text="Numer Karnetu: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nrKarnetu"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/wpiszNrKarnetu"
+        android:hint="Wpisz numer karnetu" />
+
+    <TextView
+        android:layout_marginTop="27dp"
+        android:text="Wartość: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wartosc"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/wpiszWartoscKarnetu"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:hint="Wpisz wartosc karnetu" />
+
+    <Button
+        android:text="Zatwierdź"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/zatwierdz" />
+
+    <Button
+        android:text="Powrót"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Powrot" />
+
+</LinearLayout>

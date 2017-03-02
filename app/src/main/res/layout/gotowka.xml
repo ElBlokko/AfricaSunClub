@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_marginTop="27dp"
+        android:text="Wybierz łozko: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wybierz_lozko"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="20dp"/>
+
+
+
+        <RadioGroup
+            android:layout_marginTop="27dp"
+            android:layout_width="match_parent"
+            android:layout_height="143dp" >
+
+            <RadioButton
+                android:text="MegaSun7000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ms7" />
+
+            <RadioButton
+                android:text="E600"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/e600" />
+
+            <RadioButton
+                android:text="E500"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/e500" />
+
+            <RadioButton
+                android:text="MegaSun6000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ms6" />
+
+        </RadioGroup>
+
+    <TextView
+        android:layout_marginTop="27dp"
+        android:text="Liczba minut: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/liczba_minut"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="20dp"/>
+
+    <SeekBar
+        style="@android:style/Widget.Material.SeekBar.Discrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="25"
+        android:progress="1"
+        android:id="@+id/minuty"
+        android:layout_weight="0.09" />
+
+    <TextView
+        android:layout_marginTop="27dp"
+        android:text="Cena: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cena"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="20dp"/>
+</LinearLayout>
